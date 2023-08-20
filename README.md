@@ -1,2 +1,2 @@
 # JavaS-Projetos
-Projetos em Java
+Projetos em JavaS
