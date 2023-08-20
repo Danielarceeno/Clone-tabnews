@@ -1,3 +1,3 @@
 # JavaS-Projetos
 
-Projetos em Java
+Projetos em JavaScript
