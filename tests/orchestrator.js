@@ -21,4 +21,4 @@ async function waitForAllServices() {
 
 export default{
   waitForAllServices,
-};
+}
