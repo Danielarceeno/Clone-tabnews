@@ -8,7 +8,7 @@ beforeAll(async () => {
 describe("POST /api/v1/migrations", () => {
   describe("Anonymous user", () => {
     describe("Running pending migrations", () => {
-      test("for the first time", async () => {
+      test("For the first time", async () => {
         const response1 = await fetch(
           "http://localhost:3000/api/v1/migrations",
           {
@@ -22,7 +22,7 @@ describe("POST /api/v1/migrations", () => {
         expect(Array.isArray(response1Body)).toBe(true);
         expect(response1Body.length).toBeGreaterThan(0);
       });
-      test("for the second time", async () => {
+      test("For the second time", async () => {
         const response2 = await fetch(
           "http://localhost:3000/api/v1/migrations",
           {
