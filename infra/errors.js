@@ -3,8 +3,8 @@ export class InternalServerError extends Error {
     super("Um erro interno não esperado aconteceu.", {
       cause,
     });
-    this.name = "InterSeverError";
-    this.action = "Entre em contato com o suporte";
+    this.name = "InternalServerError";
+    this.action = "Entre em contato com o suporte.";
     this.statusCode = statusCode || 500;
   }
 
